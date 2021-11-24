@@ -15,7 +15,7 @@ if __name__ == '__main__':
     while ok is False:
         print("(P) Hola soy el proceso principal, y voy a crear uno o varios subprocesos")
         try:
-            num = input("¿Cuantos subprocesos debo crear? Introduce un número, puedes crear un máximo de 1000 subprocesos: " + "\n")
+            num = input("¿Cuantos subprocesos debo crear? Introduce un número, puedes crear un máximo de 10000000 subprocesos: " + "\n")
 
             numProcesos = int(num)
             if numProcesos > 0 and numProcesos < 10000001:
